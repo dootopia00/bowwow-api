@@ -11,6 +11,7 @@ export class ProductController {
   @Get()
   getList(): Product[] {
     // return "get list";
+    console.log('getList ')
     return this.productService.getList();
   }
 
