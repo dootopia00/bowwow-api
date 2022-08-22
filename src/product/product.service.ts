@@ -9,7 +9,7 @@ export class ProductService {
   getList(): Product[]{
     return this.products;
   }
-
+  
   getProduct(id:string): Product {
 
     // parseInt(id) === +id 같은 의미
